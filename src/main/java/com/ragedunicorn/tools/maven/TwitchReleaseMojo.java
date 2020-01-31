@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019 Michael Wiesendanger
+ * Copyright (c) 2020 Michael Wiesendanger
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
  * "Software"), to deal in the Software without restriction, including
@@ -24,19 +24,16 @@ package com.ragedunicorn.tools.maven;
 
 import com.ragedunicorn.tools.maven.model.Metadata;
 import com.ragedunicorn.tools.maven.service.ReleaseService;
-
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
-
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
-
 import org.apache.maven.settings.Server;
 import org.apache.maven.settings.Settings;
 
