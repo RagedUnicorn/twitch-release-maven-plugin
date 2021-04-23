@@ -4,6 +4,11 @@
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.ragedunicorn.tools.maven/twitch-release-maven-plugin.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.ragedunicorn.tools.maven%22%20AND%20a:%22twitch-release-maven-plugin%22)
 
+## Discontinued
+
+> With Twitch selling CurseForge to Overwolf this plugin is replaced with a new one -
+> [curseforge-release-magen-plugin](https://github.com/RagedUnicorn/curseforge-release-maven-plugin)
+
 ## Usage
 
 Setup pom.xml in project
