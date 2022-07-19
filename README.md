@@ -7,7 +7,7 @@
 ## Discontinued
 
 > With Twitch selling CurseForge to Overwolf this plugin is replaced with a new one -
-> [curseforge-release-magen-plugin](https://github.com/RagedUnicorn/curseforge-release-maven-plugin)
+> [curseforge-release-maven-plugin](https://github.com/RagedUnicorn/curseforge-release-maven-plugin)
 
 ## Usage
 
@@ -75,9 +75,9 @@ mvn twitch-release:twitch-release
 Before the plugin can be used an API token has to be generated.
 
 See Twitchs [documentation](https://authors.curseforge.com/account/api-tokens)
-   
+
 Once the Api token is generated it can be stored inside the maven `.m2/settings.xml`.
- 
+
  ```xml
 <server>
   <id>twitch-token</id>
@@ -103,7 +103,7 @@ Tests are kept basic because for most of the functionality the Twitch backend is
 
 ##### IntelliJ Run Configurations
 
-The project contains IntelliJ run configurations that can be used for most tasks. Create a folder `runConfigurations` inside the `.idea` folder and copy over all run configurations. 
+The project contains IntelliJ run configurations that can be used for most tasks. Create a folder `runConfigurations` inside the `.idea` folder and copy over all run configurations.
 
 
 ##### Build Project
@@ -126,7 +126,7 @@ In maven `settings.xml` configure the ossrh account
 </server>
 ```
 
-#### Build and Release 
+#### Build and Release
 
 ```
 mvn clean deploy -P deploy
